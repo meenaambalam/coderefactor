@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* changing .header to header symentic tag*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changed .header h1 to h1 as there is no other h1 tags*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changed .header h1 .seo to #seo for id*/
+#seo {
+    color: #d9dcd6;
+}
+
+#header-div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#header-ul {
+    list-style-type: none;
+}
+
+.header-li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {  /* changed to "main" semantic tag*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {       /*changed .benefits to aside*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits { /*removed the redundant code and combined all the div elements with same class name*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {  /*combined all the h3 of benefits class within aside*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.benefits img { /*combined all the img stlyes of benefits class within aside*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.main-div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-div img {
+    max-height: 200px;
+}
+
+.main-div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
